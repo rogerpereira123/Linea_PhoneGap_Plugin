@@ -13,6 +13,12 @@ Linea Pro SDK
 ## Description
 An Objective-C plugin developed in Xcode to interface Linea Pro barcode scanner devices with Cordova Phonegap. 
 
+## How to use
+- Copy the plugins folder to Xcode project
+- Register the plugin to config.xml 
+- Start using plugin using cordova.exec
+- Ex. 'cordova.exec(successCallback , errorCallback , 'CDVLinea', 'getBatteryCapacity', []);'
+
 Following functionality is supported:
 - Check Connection State of the hardware attachment
 - Check battery capacity of the hardware attachment
